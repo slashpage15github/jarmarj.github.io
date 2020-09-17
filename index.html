@@ -5,6 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Basquet y yo:D</title>
 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="style2.css">
 
@@ -23,8 +25,7 @@
     
         <iframe class="gifLeft"src="https://giphy.com/embed/dXFoQlOrxJpuO5nVqS" width="300" height="165" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
         <div>
-            <br>
-            <p><br>Conocí el deporte de pequeño porque mi papá jugaba desde muy joven en los equipos de su escuela,<br>
+            <p class="jumbotron" style="background-color: orange;"><br>Conocí el deporte de pequeño porque mi papá jugaba desde muy joven en los equipos de su escuela,<br>
             tenía balones en mi casa pero por algún motivo nunca lo entrené ni estuve en alún equipo infantil, etc.
        
             Siempre estuve en equipos de americano, soccer, e incluso en clases de guitarra, violín.<br>
@@ -39,8 +40,7 @@
         <h2>Equipo favorito</h2>
         <iframe id="gifRight" src="https://giphy.com/embed/gLiDTCRLxMhSjUsXPn"  width="300" height="165" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
         <div>
-            <br>
-            <p><br><br>
+            <p class="jumbotron" style="background-color: orange;"><br><br>
                 Tengo un equopo preferido por sobre todos en la NBA, es Golden State Warriors.<br>El motivo de esto, es porque cuando comencé a ver
                 la NBA era el año del 2015,<br>año en el que Warriors ganó su primer título desde hacía decadas, liderados por Stephen Curry, a quien<br>
                 tomé como mi jugador preferido por el como me indentificaba en el juego con él,<br> además de se un jugador muy divertido de ver.<br><br><br><br>
@@ -61,20 +61,22 @@
             </tr>
         </table><br>
 
-        <iframe class="gifLeft" src="https://giphy.com/embed/VI9Be9K7aiiHL6Lcqj" width="480" height="264" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
         
-        <div class="form1">
-        <br>
-            <h3>Si quieres agregar tus historias de basquet, registrate:D</h3>
-            <form id="myform">
-                <input type="text" id="nombres" placeholder="Nombre*" required><br><br>
-                <input type="email" id="email" placeholder="e-mail*" required><br><br>
-                <input type="password" id="password" placeholder="Contraseña*" required><br><br>
-                <label>Fecha de nacimiento</label>
-                <input type="date" id="fechaNacimiento"><br><br>
-                <button id="sButton" type="submit" name="submit" onclick="submitForm()">Enviar</button><br><br>
-                <br>
-            </form>
+        <div class="jumbotron" style="background-color: rgb(252, 255, 64);">
+            
+            <iframe class="gifLeft" src="https://giphy.com/embed/VI9Be9K7aiiHL6Lcqj" width="480" height="264" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            
+                <h3>Si quieres agregar tus historias de basquet, registrate:D</h3>
+                <form id="myform">
+                    <input type="text" id="nombres" placeholder="Nombre*" required><br><br>
+                    <input type="email" id="email" placeholder="e-mail*" required><br><br>
+                    <input type="password" id="password" placeholder="Contraseña*" required><br><br>
+                    <label>Fecha de nacimiento</label>
+                    <input type="date" id="fechaNacimiento"><br><br>
+                    <button id="sButton" type="submit" name="submit" onclick="submitForm()">Enviar</button><br><br>
+                    <br>
+                </form>
+            
         </div>
         <br><br>
       
@@ -88,5 +90,8 @@
         <a href="https://www.instagram.com/adrianxrodriguez/" target="_blank">
             <button class="button" id="instagram">Instagram:D</button>
         </a><br><br><br><br><br><br>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     </body>
 </html>
