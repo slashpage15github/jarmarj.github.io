@@ -63,10 +63,13 @@
 
         
         <div class="jumbotron" style="background-color: rgb(252, 255, 64);">
-            
-            <iframe class="gifLeft" src="https://giphy.com/embed/VI9Be9K7aiiHL6Lcqj" width="480" height="264" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-            
-                <h3>Si quieres agregar tus historias de basquet, registrate:D</h3>
+            <div class="container">
+                <div class="row">
+                  <div class="col-sm">
+                    <iframe class="gifLeft" src="https://giphy.com/embed/VI9Be9K7aiiHL6Lcqj" width="480" height="264" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                  </div>
+                  <div class="col-sm">
+                    <h3>Si quieres agregar tus historias de basquet, registrate:D</h3>
                 <form id="myform">
                     <input type="text" id="nombres" placeholder="Nombre*" required><br><br>
                     <input type="email" id="email" placeholder="e-mail*" required><br><br>
@@ -76,21 +79,35 @@
                     <button id="sButton" type="submit" name="submit" onclick="submitForm()">Enviar</button><br><br>
                     <br>
                 </form>
-            
+                  </div>
+                </div>
+              </div>                 
         </div>
         <br><br>
-      
-        <br><h2>Para terminar, aquí están mis redes sociales uwu</h2><br><br><br><br>
-        
-        <a href="https://www.facebook.com/adrien.way.52/" target="_blank">
-            <button class="button" id="facebook">Facebook:D</button>
-        </a><a href="https://twitter.com/jarmarj" target="_blank">
-            <button class="button" id="twitter">Twitter:D</button>
-        </a><br><br><br>
-        <a href="https://www.instagram.com/adrianxrodriguez/" target="_blank">
-            <button class="button" id="instagram">Instagram:D</button>
-        </a><br><br><br><br><br><br>
 
+        <br><h2>Para terminar, aquí están mis redes sociales uwu</h2><br><br><br><br>
+
+
+        <div class="container">
+            <div class="row">
+              <div class="col-xl-4">
+                <a href="https://www.facebook.com/adrien.way.52/" target="_blank">
+                    <button class="button" id="facebook">Facebook:D</button>
+                </a>
+              </div>
+              <div class="col-xl-4">
+                <a href="https://www.instagram.com/adrianxrodriguez/" target="_blank">
+                    <button class="button" id="instagram">Instagram:D</button>
+                </a>
+              </div>
+              <div class="col-xl-4">
+                <a href="https://twitter.com/jarmarj" target="_blank">
+                    <button class="button" id="twitter">Twitter:D</button>
+                </a>
+              </div>
+            </div>
+        </div><br><br><br><br>
+      
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     </body>
