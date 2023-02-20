@@ -176,7 +176,7 @@ html .top-rigth .user svg:hover {
 @media (max-width: 450px) {
   body,
   html {
-    overflow: auto;
+    overflow: visible;
   }
   body .contenedor,
   html .contenedor {

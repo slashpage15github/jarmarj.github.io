@@ -157,7 +157,7 @@ html {
     }
   }
   @include media("<=phone") {
-    overflow: auto;
+    overflow: visible;
     .contenedor {
       display: flex;
       flex-direction: column;
